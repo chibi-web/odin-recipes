@@ -5,64 +5,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
 </head>
+
 <body>
 
     <header>
         <h1>Odin Recipes</h1>
-        <p>Welcome to my collection of delicious homemade recipes!</p>
-        <p>Simple dishes, easy ingredients, and step-by-step instructions.</p>
+        <p>Simple, delicious, and homemade recipes for everyone!</p>
+
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#recipes">Recipes</a> |
+            <a href="#overview">Recipe Overview</a>
+        </nav>
     </header>
 
     <hr>
 
     <main>
 
-        <section>
-            <h2>Featured Recipes</h2>
-            <p>Explore my three favorite dishes below.</p>
+        <section id="home">
+            <h2>Welcome to Odin Recipes!</h2>
 
-            <h3>Pancakes</h3>
-            <a href="./recipe/pancakes.html">
-                <img src="./recipe/pancakes.jpg"
-                     alt="Homemade Pancakes"
+            <p>
+                Welcome to my recipe website! Here, you can discover
+                simple and delicious recipes that you can easily prepare
+                at home. Whether you're looking for breakfast or a quick
+                Filipino snack, there's something here for you.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="recipes">
+            <h2>Our Recipes</h2>
+
+            <h3>1. Pancakes</h3>
+            <a href="recipe/pancakes.html">
+                <img src="recipe/pancakes.jpg"
+                     alt="Homemade pancakes"
                      width="250">
             </a>
-            <p>Soft and fluffy pancakes perfect for breakfast.</p>
-            <p><a href="./recipe/pancakes.html">View Pancakes Recipe</a></p>
+            <p>A soft and fluffy breakfast favorite.</p>
+            <a href="recipe/pancakes.html">View Pancake Recipe</a>
 
             <hr>
 
-            <h3>Fried Egg</h3>
-            <a href="./recipe/egg.html">
-                <img src="./recipe/egg.jpg"
-                     alt="Fried Egg"
+            <h3>2. Fried Egg</h3>
+            <a href="recipe/egg.html">
+                <img src="recipe/egg.jpg"
+                     alt="Fried egg"
                      width="250">
             </a>
-            <p>A simple and delicious breakfast dish.</p>
-            <p><a href="./recipe/egg.html">View Fried Egg Recipe</a></p>
+            <p>A simple and easy dish perfect for breakfast.</p>
+            <a href="recipe/egg.html">View Fried Egg Recipe</a>
 
             <hr>
 
-            <h3>Banana Cue</h3>
-            <a href="./recipe/banana-cue.html">
-                <img src="./recipe/banana-cue.jpg"
-                     alt="Filipino Banana Cue"
+            <h3>3. Banana Cue</h3>
+            <a href="recipe/banana-cue.html">
+                <img src="recipe/banana-cue.jpg"
+                     alt="Filipino banana cue"
                      width="250">
             </a>
-            <p>A popular Filipino street food coated with caramelized sugar.</p>
-            <p><a href="./recipe/banana-cue.html">View Banana Cue Recipe</a></p>
+            <p>A popular Filipino street food made with bananas and caramelized sugar.</p>
+            <a href="recipe/banana-cue.html">View Banana Cue Recipe</a>
 
         </section>
 
         <hr>
 
-        <section>
-            <h2>About This Website</h2>
-            <p>
-                This website contains three of my favorite recipes.
-                Each recipe page includes a description, ingredients,
-                and step-by-step instructions.
-            </p>
+        <section id="overview">
+            <h2>Recipe Overview</h2>
+
+            <p>Here's a quick overview of the recipes available on this website.</p>
+
+            <table border="1" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th>Recipe</th>
+                        <th>Category</th>
+                        <th>Main Ingredient</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Pancakes</td>
+                        <td>Breakfast</td>
+                        <td>Flour</td>
+                        <td>
+                            <a href="recipe/pancakes.html">View Recipe</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Fried Egg</td>
+                        <td>Breakfast</td>
+                        <td>Eggs</td>
+                        <td>
+                            <a href="recipe/egg.html">View Recipe</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Banana Cue</td>
+                        <td>Filipino Snack</td>
+                        <td>Banana</td>
+                        <td>
+                            <a href="recipe/banana-cue.html">View Recipe</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
         </section>
 
     </main>
@@ -70,7 +126,8 @@
     <hr>
 
     <footer>
-        <p>Thank you for visiting Odin Recipes!</p>
+        <p>Odin Recipes | Created by a beginner web developer</p>
+        <p>Made with HTML.</p>
     </footer>
 
 </body>
